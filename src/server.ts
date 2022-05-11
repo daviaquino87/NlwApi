@@ -11,13 +11,13 @@ app.post("/feedbacks", async (req ,res) => {
        data: {
            type,
            comment,
-           screenshot,
+           screenshot
        }
    })
 
    return res.status(201).json({data: feedback})
 });
 
-app.listen(3030, () => {
+app.listen(3333, () => {
     console.log("App on")
 })
