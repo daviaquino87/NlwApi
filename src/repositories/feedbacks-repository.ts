@@ -6,7 +6,7 @@ export interface FeedbackCreateData{
 
 
 
-export interface FeedbacksRepositorie{
+export interface FeedbacksRepository{
 
     create:(data: FeedbackCreateData) => Promise<void>;
 }
